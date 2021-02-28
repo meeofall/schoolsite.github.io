@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: rgb(85, 83, 83);
+  display: inline-block;
+  font-weight: 200;
+}
+
+.nav-link:hover {
+  color: rgb(146, 70, 70);
+  background: rgb(230, 202, 248);
+  border-radius: 3%;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  float: left;
+  padding-left: 2rem;
+  color: rgb(85, 83, 83);
+  font-weight: 200;
+}
+
+.navbar-toggler {
+  color: rgb(8, 8, 8);
+}
+
+.display-4 {
+  color: rgb(100, 97, 97);
+}
+.lead {
+  margin-left: 0.27rem;
+}
+
+.img {
+  vertical-align: top;
+}
+
+.card-columns {
+  display: inline-block;
+}
+
+.list {
+  color: rgb(85, 83, 83);
+  text-decoration: none;
+  font-weight: 100;
+  list-style-type: none;
+}
+
+.list-link {
+  text-decoration: none;
+}
+
+.footer-container-fluid a {
+  margin-left: 1.35rem;
+  font-size: small;
+  padding: 0.25rem;
+  margin-right: 0.35rem;
+}
+
+.footer-container-fluid p {
+  padding-left: 0.65rem;
+}
+
+.footer-newsletter {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  padding-top: 1rem;
+}
+
+.footer-newsletter p {
+  font-size: small;
+}
+
+.footer-newsletter button {
+  font-size: small;
+  margin-left: 0.45rem;
+}
